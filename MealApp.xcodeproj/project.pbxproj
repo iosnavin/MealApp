@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66E6C41C2C30DDE300BE7EAC /* RecipeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6C41B2C30DDE300BE7EAC /* RecipeAPI.swift */; };
+		66E6C41E2C30E92600BE7EAC /* IngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6C41D2C30E92600BE7EAC /* IngredientTableViewCell.swift */; };
 		66EC75AD2C2F77170007F9E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC75AC2C2F77170007F9E3 /* AppDelegate.swift */; };
 		66EC75AF2C2F77170007F9E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC75AE2C2F77170007F9E3 /* SceneDelegate.swift */; };
-		66EC75B12C2F77170007F9E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC75B02C2F77170007F9E3 /* ViewController.swift */; };
+		66EC75B12C2F77170007F9E3 /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC75B02C2F77170007F9E3 /* RecipeListViewController.swift */; };
 		66EC75B42C2F77170007F9E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66EC75B22C2F77170007F9E3 /* Main.storyboard */; };
 		66EC75B72C2F77170007F9E3 /* MealApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66EC75B52C2F77170007F9E3 /* MealApp.xcdatamodeld */; };
 		66EC75B92C2F77190007F9E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66EC75B82C2F77190007F9E3 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 		66EC75C72C2F77190007F9E3 /* MealAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC75C62C2F77190007F9E3 /* MealAppTests.swift */; };
 		66EC75D12C2F77190007F9E3 /* MealAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC75D02C2F77190007F9E3 /* MealAppUITests.swift */; };
 		66EC75D32C2F77190007F9E3 /* MealAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC75D22C2F77190007F9E3 /* MealAppUITestsLaunchTests.swift */; };
+		66EC75E02C2F77D10007F9E3 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC75DF2C2F77D10007F9E3 /* Recipe.swift */; };
+		66EC75E22C2F78DC0007F9E3 /* RecipeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC75E12C2F78DC0007F9E3 /* RecipeDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66E6C41B2C30DDE300BE7EAC /* RecipeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeAPI.swift; sourceTree = "<group>"; };
+		66E6C41D2C30E92600BE7EAC /* IngredientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTableViewCell.swift; sourceTree = "<group>"; };
 		66EC75A92C2F77170007F9E3 /* MealApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66EC75AC2C2F77170007F9E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66EC75AE2C2F77170007F9E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		66EC75B02C2F77170007F9E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66EC75B02C2F77170007F9E3 /* RecipeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
 		66EC75B32C2F77170007F9E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66EC75B62C2F77170007F9E3 /* MealApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MealApp.xcdatamodel; sourceTree = "<group>"; };
 		66EC75B82C2F77190007F9E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +57,8 @@
 		66EC75CC2C2F77190007F9E3 /* MealAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66EC75D02C2F77190007F9E3 /* MealAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealAppUITests.swift; sourceTree = "<group>"; };
 		66EC75D22C2F77190007F9E3 /* MealAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66EC75DF2C2F77D10007F9E3 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		66EC75E12C2F78DC0007F9E3 /* RecipeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +111,11 @@
 			children = (
 				66EC75AC2C2F77170007F9E3 /* AppDelegate.swift */,
 				66EC75AE2C2F77170007F9E3 /* SceneDelegate.swift */,
-				66EC75B02C2F77170007F9E3 /* ViewController.swift */,
+				66EC75DF2C2F77D10007F9E3 /* Recipe.swift */,
+				66E6C41B2C30DDE300BE7EAC /* RecipeAPI.swift */,
+				66EC75B02C2F77170007F9E3 /* RecipeListViewController.swift */,
+				66EC75E12C2F78DC0007F9E3 /* RecipeDetailsViewController.swift */,
+				66E6C41D2C30E92600BE7EAC /* IngredientTableViewCell.swift */,
 				66EC75B22C2F77170007F9E3 /* Main.storyboard */,
 				66EC75B82C2F77190007F9E3 /* Assets.xcassets */,
 				66EC75BA2C2F77190007F9E3 /* LaunchScreen.storyboard */,
@@ -262,9 +274,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				66EC75B72C2F77170007F9E3 /* MealApp.xcdatamodeld in Sources */,
-				66EC75B12C2F77170007F9E3 /* ViewController.swift in Sources */,
+				66EC75E22C2F78DC0007F9E3 /* RecipeDetailsViewController.swift in Sources */,
+				66EC75B12C2F77170007F9E3 /* RecipeListViewController.swift in Sources */,
+				66EC75E02C2F77D10007F9E3 /* Recipe.swift in Sources */,
+				66E6C41E2C30E92600BE7EAC /* IngredientTableViewCell.swift in Sources */,
 				66EC75AD2C2F77170007F9E3 /* AppDelegate.swift in Sources */,
 				66EC75AF2C2F77170007F9E3 /* SceneDelegate.swift in Sources */,
+				66E6C41C2C30DDE300BE7EAC /* RecipeAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
